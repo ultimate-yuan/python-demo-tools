@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <project name="p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip" remote="amlogic" revision="9f9d86ee4810d2b28288dc8fedd9173c4a2e8f0d" upstream="amlogic-dev">
+    <copyfile dest="bootloader/uboot-repo/mk" src="mk"/>
+  </project>
+  <project name="p-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/common/apps/IrBlaster" remote="amlogic" revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" upstream="p-amlogic"/>
+  <project name="p-amlogic/device/amlogic-o" path="device/amlogic" remote="amlogic" revision="168a1c521deb08f74c92b0b36127828ee36d5526" upstream="p-amlogic-mainline"/>
+</manifest>
